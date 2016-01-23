@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="utf8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>TypoMemo</title>
+		<meta name="description" content="A fun typographic memory">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="header-wrapper">
+				<h1>TypoMemo</h1>
+				<p>Hit a box and match two typefaces with one an other.<br class="mobile-break"></p>
+			</div>
+		</div>
+			<div class="memory-wrapper" id="memory-wrapper">
+				<div class="box box-one">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/lucida-grande.png" alt="Lucida Grande"></a>
+					</div>
+				</div>
+				<div class="box box-one">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/lucida-grande.png" alt="Lucida Grande"></a>
+					</div>
+				</div>
+				<div class="box box-two">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/helvetica.png" alt="Helvetica"></a>
+					</div>
+				</div>
+				<div class="box box-two">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/helvetica.png" alt="Helvetica"></a>
+					</div>
+				</div>
+				<div class="box box-three">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/baskerville.png" alt="Baskerville"></a>
+					</div>
+				</div>
+				<div class="box box-three">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/baskerville.png" alt="Baskerville"></a>
+					</div>
+				</div>
+				<div class="box box-four">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/courier.png" alt="Courier"></a>
+					</div>
+				</div>
+				<div class="box box-four">
+					<div class="front"></div>
+					<div class="back">
+						<a href="#"><img src="img/type-big/courier.png" alt="Courier"></a>
+					</div>
+				</div>
+			</div>
+		<div class="footer">
+			<p class="learnMore">Want to learn more about the typefaces used in this memory? Check out following links:
+				<ul class="FontList">
+					<li><a href="http://en.wikipedia.org/wiki/Baskerville" class="BaskervilleList js-font-click" data-target="baskerville">Baskerville</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Helvetica" class="HelveticaList js-font-click" data-target="helvetica">Helvetica</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Lucida_Grande" class="LucidaList js-font-click" data-target="lucida">Lucida Grande</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Courier_(typeface)" class="CourierList js-font-click" data-target="courier">Courier</a></li>
+				</ul>
+
+			 <p class="copyright">Typomemo.com | &copy;2016 <a href="http://hannarajkovic.com">Hanna Rajkovic </a></p>
+		</div>
+		<div id="shim"></div>
+			<div class="msgbx baskerville js-font-target">
+				<div class= "fontwrapper">
+					<div class="closebutton">
+						<a href="#"><img src="img/flat-cross.png" alt="Close button"></a>
+					</div>
+					<h4>Baskerville</h4>
+					<p>
+						Baskerville is a serif typeface designed in 1757 by John Baskerville (1706–1775) in Birmingham, England and cut by John Handy. Baskerville is classified as a transitional typeface, intended as a refinement of what are now called old-style typefaces of the period, especially those of his most eminent contemporary, William Caslon. Compared to earlier designs, Baskerville increased the contrast between thick and thin strokes, making the serifs sharper and more tapered, and shifted the axis of rounded letters to...
+					</p>
+					<p class="source">
+						<a href="http://en.wikipedia.org/wiki/Baskerville">Read full article on Wikipedia ›</a>
+					</p>
+				</div>
+			</div>
+			<div class="msgbx lucida js-font-target">
+				<div class="fontwrapper">
+					<div class="closebutton">
+						<a href="#"><img src="img/flat-cross.png" alt="Close button"></a>
+					</div>
+					<h4>Lucida Grande</h4>
+					<p>
+						Lucida Grande is a humanist sans-serif typeface. It is a member of the Lucida family of typefaces designed by Charles Bigelow and Kris Holmes. It has been used throughout Mac OS X user interface from 1999 to 2014, as well as in Safari for Windows up to the browser's version 3.2.3 released on 12 May 2009. As of OS X 10.10 Yosemite, the system font was changed from Lucida Grande to Helvetica Neue. In OS X El Capitan the system font changed again. This time to San Francisco(2014 typeface). The typeface looks very similar ...
+					</p>
+					<p class="source"><a href="http://en.wikipedia.org/wiki/Lucida_Grande">Read full article on Wikipedia ›</a>
+					</p>
+				</div>
+			</div>
+			<div class="msgbx helvetica js-font-target">
+				<div class= "fontwrapper">
+					<div class="closebutton">
+						<a href="#"><img src="img/flat-cross.png" alt="Close button"></a>
+					</div>
+					<h4>Helvetica</h4>
+					<p>
+						Helvetica is a widely used sans-serif typeface developed in 1957 by Swiss typeface designer Max Miedinger with input from Eduard Hoffmann.It is a neo-grotesque or realist design, one influenced by the famous 19th century typeface Akzidenz-Grotesk and other German and Swiss designs. Its use became a hallmark of the International Typographic Style that emerged from the work of Swiss designers in the 1950s and 60s, becoming one of the most popular typefaces of the 20th century. Over the years, a wide range of variants have been released in different weights, widths and sizes, as well as...
+					</p>
+					<p class="source"><a href="http://en.wikipedia.org/wiki/Helvetica">Read full article on Wikipedia ›</a>
+					</p>
+				</div>
+			</div>
+			<div class="msgbx courier js-font-target">
+				<div class= "fontwrapper">
+					<div class="closebutton">
+						<a href="#"><img src="img/flat-cross.png" alt="Close button"></a>
+					</div>
+					<h4>Courier</h4>
+					<p>
+						Courier is a monospaced slab serif typeface designed to resemble the output from a strike-on typewriter. The typeface was designed by Howard "Bud" Kettler in 1955, and it was later redrawn by Adrian Frutiger for the IBM Selectric Composer series of electric typewriters. Although the design of the original Courier typeface was commissioned by IBM, the company deliberately chose not to secure legal exclusivity to the typeface and it soon became a standard font used throughout the typewriter industry. Because IBM deliberately chose not ...
+					</p>
+					<p class="source"><a href="http://en.wikipedia.org/wiki/Courier_(typeface)">Read full article on Wikipedia ›</a>
+					</p>
+				</div>
+			</div>
+			<div class="msgbx winbox">
+				<div class="fontwrapper">
+					<div class="closebutton">
+						<a href="#"><img src="img/flat-cross.png" alt="Close button"></a>
+					</div>
+					<h5>Sweet!</h5>
+					<p class="winner-text">Well done champ, you did it in <span class="points">#</span> clicks!
+					</p>
+					<p class="hit-again-button"><a href="/">Try this awesomeness again ›</a>
+				</div>
+			</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
